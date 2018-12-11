@@ -4,8 +4,10 @@
 ## run git behind proxy network
 `git config --global http:proxy http://proxyserver.com:port`
 
-`git clone http://link.repo.git`
-  
+`git clone http://link.repo.git`\
+
+## unset git proxy network
+`git config --global --unset http.proxy`
   
   
 ## install python-pip behind proxy network
